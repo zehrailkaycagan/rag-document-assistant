@@ -1,0 +1,31 @@
+# RAG Document Assistant - Gerekli Paketler
+
+# Temel Bağımlılıklar
+python-dotenv==1.0.0
+
+# LangChain ve RAG
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.2
+langchain-text-splitters==0.0.1
+
+# Vektör Veritabanı
+faiss-cpu>=1.8.0
+
+# Embedding Modelleri
+sentence-transformers==2.2.2
+openai==1.10.0
+
+# Doküman İşleme
+pypdf==3.17.4
+python-docx==1.1.0
+pdfplumber>=0.11.0  # PDF tablo okuma için
+
+# Web Framework
+streamlit==1.29.0
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Yardımcı Kütüphaneler
+numpy==1.26.3
+pandas==2.1.4
